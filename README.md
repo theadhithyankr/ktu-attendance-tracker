@@ -1,46 +1,80 @@
+<div align="center">
+
 # KTU Attendance Tracker
 
-Offline KTU attendance tracker for calculating required classes, safe skips, and subject-wise attendance targets.
+Attendance tracking app tailored to KTU-style academic requirements.
+
+![React](https://img.shields.io/badge/React-20232A?logo=react) ![Expo](https://img.shields.io/badge/Expo-000020?logo=expo) ![React Native](https://img.shields.io/badge/React_Native-20232A?logo=react) ![Gradle](https://img.shields.io/badge/Gradle-02303A?logo=gradle) ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white)
+
+[Repository](https://github.com/theadhithyankr/ktu-attendance-tracker)
+
+</div>
+
+## Overview
+
+KTU Attendance Tracker is a attendance project in the TheAdhithyanKR/ktu-attendance-tracker repository. Offline KTU attendance tracker for calculating required classes, safe skips, and subject-wise attendance targets.
+
+The README was written from the repository contents, including its manifest files, source tree, and available project metadata. The primary manifest is $(System.Collections.Hashtable.Path), and the commands below are taken from its scripts.
 
 ## Key Features
-- Offline KTU attendance tracker for calculating required classes, safe skips, and subject-wise attendance targets
-- Organized UI components and screens make the main user flows visible from the project structure.
-- Android or JVM project structure is documented with the relevant Gradle, Kotlin, or Java entry points.
-- Existing media assets are referenced only where they are already present in the repository.
-- Package scripts provide reproducible development, build, and preview commands.
+
+- Subject-wise attendance tracking concept
+- Student-focused calculations for attendance status
+- Mobile-first interface for quick updates
+- Portfolio example of solving a local academic workflow
 
 ## Tech Stack
-- JavaScript/TypeScript
+
 - React
 - Expo
+- React Native
+- Gradle
 - Kotlin
 
 ## Project Structure
-- components - reusable UI and workflow components.
-- public / assets - static images, icons, manifests, and visual assets.
 
-## Setup and Run
-```bash
-git clone https://github.com/theadhithyankr/ktu-attendance-tracker.git
-cd ktu-attendance-tracker
+`	ext
+.
+|-- android/gradle.properties
+|-- android/gradlew
+|-- android/gradlew.bat
+|-- App.js
+|-- app.json
+|-- App_backup.js
+|-- App_new.js
+|-- assets/adaptive-icon.png
+|-- assets/favicon.png
+|-- assets/icon.png
+|-- assets/privacy.png
+|-- assets/README.txt
+|-- assets/splash-icon.png
+|-- attendance report hour-wise.xlsx
+|-- eas.json
+|-- index.js
+|-- index2.html
+|-- LICENSE
+|-- package.json
+|-- package-lock.json
+|-- readme.md
+|-- README.md
+|-- sample-subjects.csv
+|-- sample-subjects-template.xlsx
+`
+
+## Setup
+
+`ash
 npm install
-npm run start
-npm run android
-npm run ios
-```
-
-## Screenshots and Media
-- Existing asset: assets/adaptive-icon.png
-- Existing asset: assets/favicon.png
-- Existing asset: assets/icon.png
-- Existing asset: assets/privacy.png
-- Existing asset: assets/splash-icon.png
+npm start
+`
 
 ## What This Project Demonstrates
-- Building user-facing web applications with component-based UI and modern frontend tooling.
-- Structuring a mobile app around reusable screens, assets, and platform run scripts.
-- Working with Android or JVM project structure, build tooling, and platform-specific source layout.
-- Presenting project scope, setup, and technical choices clearly for reviewers and recruiters.
 
-## Repository
-- GitHub: https://github.com/theadhithyankr/ktu-attendance-tracker
+- Ability to turn a focused product idea into a working codebase
+- Practical use of the repository's chosen framework and tooling
+- Attention to deployable structure, repeatable setup, and portfolio-ready presentation
+- Project-specific implementation around attendance
+
+## Links
+
+- Repository: [https://github.com/theadhithyankr/ktu-attendance-tracker](https://github.com/theadhithyankr/ktu-attendance-tracker)
